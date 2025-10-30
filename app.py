@@ -5,7 +5,7 @@ from flask import Flask, request, jsonify
 import os
 
 # ساخت اپ Flask
-app = Flask(__name__)
+app = Flask(name)
 
 # روت تست پایه برای اطمینان از اجرا
 @app.route("/")
